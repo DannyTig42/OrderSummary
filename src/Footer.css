@@ -1,0 +1,58 @@
+@media screen and (max-width: 480px) {
+ .btn{
+    width: 80%;
+    position: relative;
+   left:2rem;
+   font-size:20px;
+   padding: 15px;
+   margin-top: 30px;
+   border-radius: 15px;
+   background-color: rgb(29, 29, 161);
+   border: none;
+   color: white;
+ }
+ .cancel{
+    margin-top: 2rem;
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+    
+ }
+  }
+
+@media screen and (min-width: 480px) {
+    .btn{
+        width: 80%;
+        position: relative;
+       left:4rem;
+       font-size:20px;
+       padding: 15px;
+       margin-top: 30px;
+       border-radius: 15px;
+       background-color: rgb(29, 29, 161);
+       border: none;
+       color: white;
+     }
+     .cancel{
+        margin-top: 2rem;
+        font-size: 20px;
+        color: gray;
+        cursor: pointer;
+        
+     }
+}
+
+/* @media screen and (min-width: 1024px) {
+  .btn{
+    width: 30%;
+    position: relative;
+    left:4rem;
+    font-size:20px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: rgb(29, 29, 161);
+    border: none;
+    color: white;
+/*     
+  } */

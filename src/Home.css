@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 480px) {
+    .hero {
+        width: 100%;;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        
+       
+    }
+    .all{
+        background-color: rgb(241, 241, 241);
+        border-radius: 20px;
+    }
+  }
+  @media only screen and (min-width: 480px) {
+
+    .hero {
+        width: 100%;;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .all{
+        background-color: rgb(241, 241, 241);
+        border-radius: 20px;
+    }
+
+  }
+
+  @media screen and (min-width: 1024px) {
+ 
+    .all{
+        background-color: rgb(241, 241, 241);
+        border-radius: 20px;
+        width: 40%;
+        margin: auto;
+        
+
+    }
+}
